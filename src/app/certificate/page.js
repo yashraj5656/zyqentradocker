@@ -8,7 +8,7 @@ export default function DockerCertificate() {
   const [studentName, setStudentName] = useState("");
 
   useEffect(() => {
-    const completed = localStorage.getItem("dockerCourseCompleted") === "true";
+    const completed = localStorage.getItem("level9DockerCompleted") === "true";
     setUnlocked(completed);
   }, []);
 
