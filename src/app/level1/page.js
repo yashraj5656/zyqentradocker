@@ -413,12 +413,12 @@ export default function Level1() {
             >
               ⬅ Previous
             </button>
-            {/* <button
+             <button
               onClick={handleNext}
               className="btn px-4 py-2 bg-blue-600 text-white rounded-md"
             >
               Next ➡️
-            </button> */}
+            </button> 
           </div>
 
           <h3 className="text-xl font-semibold mb-4">{lessons[currentLesson].title}</h3>
@@ -464,8 +464,8 @@ export default function Level1() {
       ) : (
         <div className="text-center">
           <h2 className="text-2xl font-bold text-green-600 mb-4">🎉 Congrats! You completed Level 1</h2>
-          <Link href="/summary" className="btn px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-            View Summary ➡️
+          <Link href="/level2" className="btn px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+            Go to Level 2 ➡️
           </Link>
         </div>
       )}

@@ -8,7 +8,7 @@ export default function SubscribePlans() {
   const plans = [
     {
       name: "Full Access",
-      amount: 1, // INR
+      amount: 499, // INR
       currency: "INR",
       description:
         "The world of code is quiet… but those who master Docker shape it. Will you?",

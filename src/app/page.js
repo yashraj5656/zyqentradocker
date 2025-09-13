@@ -35,7 +35,7 @@ export default function Dashboard() {
 
     const status = {};
     for (let i = 1; i <= 9; i++) {
-      status[`level${i}`] = localStorage.getItem(`level${i}Completed`) === "true";
+      status[`level${i}`] = localStorage.getItem(`level${i}DockerCompleted`) === "true";
     }
     setCompleted(status);
 
@@ -47,7 +47,7 @@ export default function Dashboard() {
 
   const resetProgress = () => {
     for (let i = 1; i <= 9; i++) {
-      localStorage.removeItem(`level${i}Completed`);
+      localStorage.removeItem(`level${i}DockerCompleted`);
     }
     localStorage.removeItem("quizScore");
     setCompleted({
