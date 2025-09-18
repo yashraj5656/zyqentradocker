@@ -149,7 +149,7 @@ export default function Dashboard() {
 
 
         <div className="text-center">
-          <p className="pp">Learning Docker is like learning to speak to the web — the more you practice, the more it listens.</p>
+          <p className="pp">Docker turns chaos into order, giving developers freedom without fear.</p>
           <p className="">
             <Link href="/signup" className=""><button data-text="Signup/Login">Signup/Login</button></Link>
             {/*{" "}or{" "} 
